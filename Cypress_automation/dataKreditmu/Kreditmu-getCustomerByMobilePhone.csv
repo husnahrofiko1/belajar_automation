@@ -1,0 +1,4 @@
+No,caseID,caseScenario,Data,expectedResponseCode,expectedMessage
+1,GMP01,Valid nomer handphone,0821251851337,200,operasi berhasil dieksekusi.
+2,GMP02,Nomor handphone <7 karakter,081234,400,"permintaan tidak valid, kesalahan muncul ketika permintaan Anda memiliki parameter URL yang tidak valid."
+3,GMP03,Nomad handphone mengandung special character,08212518513@,400,"permintaan tidak valid, kesalahan muncul ketika permintaan Anda memiliki parameter URL yang tidak valid."
